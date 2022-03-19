@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "ecbuild": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638459165,
+        "narHash": "sha256-GddhGC10/aCZ96lo2zkz92kItBABNiv7w2jJrEMkR2s=",
+        "owner": "ecmwf",
+        "repo": "ecbuild",
+        "rev": "77ad783236c72e66c449a8b58000b751807c80f3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ecmwf",
+        "repo": "ecbuild",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1645296114,
+        "narHash": "sha256-y53N7TyIkXsjMpOG7RhvqJFGDacLs9HlyHeSTBioqYU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "530a53dcbc9437363471167a5e4762c5fcfa34a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ecbuild": "ecbuild",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
